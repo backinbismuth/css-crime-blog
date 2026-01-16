@@ -1,0 +1,42 @@
+* {
+    background-color: #008080;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+
+    color: #000;
+    background-color: #FFF;
+}
+
+.window {
+    width: 300px;
+    height: 200px;
+    
+    background: #FFF;
+    border: 2px outset #888;
+    color: #000;
+
+    position: absolute;
+    left: 80px;
+    top: 100px;   
+}
+
+.window-header {
+    background: #00F;
+    color: #FFF;
+}
+
+.app-icon {
+    position: absolute;
+    top: 0px;
+    padding: 22px;
+    background: #0003;
+    pointer-events:none;
+}
+
+.app-name {
+    font-size: x-small;
+}
