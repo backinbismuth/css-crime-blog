@@ -20,18 +20,43 @@ p {
     color: #000;
 
     position: absolute;
-    left: 80px;
-    top: 100px;   
+    bottom: 0px;
+    right: 0px;
+
+    min-width: 200px;
+    min-height: 150px;
+
+    max-width: 600px;
+    max-height: 400px;
+
+    overflow: auto;
+    resize: both;
+
+    transform: rotateZ(180deg);
 }
 
 .window-header {
     background: #00F;
     color: #FFF;
+    font-size: 100%;
+}
+
+.window-hidden-div {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+    width: 75%;
+    height: 75%;
+    
+    overflow: auto; 
+    resize: both;
+    transform: rotateZ(180deg);
+
+    background: rgba(0,0,0,0);
 }
 
 .app-icon {
-    position: absolute;
-    top: 0px;
     padding: 22px;
     background: #0003;
     pointer-events:none;
